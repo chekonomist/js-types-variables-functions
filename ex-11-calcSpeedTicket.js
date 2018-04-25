@@ -34,7 +34,7 @@
 function calcSpeedTicket(speedLim, repSpeed, inProtArea){
   var doubleFine = 1
 
-  if (inProtArea=true) {
+  if (inProtArea === true) {
     doubleFine = 2
   }
 
@@ -49,16 +49,16 @@ function calcSpeedTicket(speedLim, repSpeed, inProtArea){
   return 150 * doubleFine
 }
 
-var example1 = calcSpeedTicket(25,40,false)
-console.log(example1)
-var example2 = calcSpeedTicket(65,72,true)
-console.log(example2)
-var example3 = calcSpeedTicket(75,97,false)
-console.log(example3)
-var example4 = calcSpeedTicket(55,83,true)
-console.log(example4)
-var example5 = calcSpeedTicket(30,27,true)
-console.log(example5)
+// var example1 = calcSpeedTicket(25,40,false)
+// console.log(example1)
+// var example2 = calcSpeedTicket(65,72,true)
+// console.log(example2)
+// var example3 = calcSpeedTicket(75,97,false)
+// console.log(example3)
+// var example4 = calcSpeedTicket(55,83,true)
+// console.log(example4)
+// var example5 = calcSpeedTicket(30,27,true)
+// console.log(example5)
 //*-*~*~*~*~*~ Don't Touch *~*~*~*~*~*~*~*
 
 console.assert( calcSpeedTicket(25, 40, false) === 150  )
